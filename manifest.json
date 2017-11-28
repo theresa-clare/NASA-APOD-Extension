@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "NASA APOD Extension",
+  "description": "This Google Chrome extension shows NASA's Astronomy Picture of the Day in a new tab",
+  "version": "1.0.0",
+
+  "chrome_url_overrides": {
+    "newtab": "APOD.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
